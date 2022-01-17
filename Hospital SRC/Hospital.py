@@ -17,7 +17,11 @@ def cc():
 
 
 if USERNAME == "nurse1" and PASSWORD == "nurse1pass":
+    
+    cc()
 
+    print(f'Welcome back {USERNAME}')
+    
     print(
         """
 1 To view patients
